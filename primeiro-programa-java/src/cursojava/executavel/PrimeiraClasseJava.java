@@ -2,11 +2,26 @@ package cursojava.executavel;
 
 public class PrimeiraClasseJava {
 
+	
+	
 	/*Main é um método auto executável em Java*/
 	public static void main(String[] args) {
+			
+
+		/*Char representa um tipo caractere*/
+		char pessoafisica = 'F';
 		
-		/* Escreve texto no console*/
-		System.out.println("Meu primeiro programa em Java - do Curos Java Web");
-		System.out.println("Java é orientado a objetos");
+		char pessoajuridica = 'J';
+		
+		char pessoamasculina = 'P';
+		
+		if(pessoamasculina == 'M')
+			System.out.println("Masculino");
+		else {
+			System.out.println("Feminino");
+			
+			
+		} 
+			
 	}
 }
