@@ -21,7 +21,7 @@ public class PrimeiraClasseJava {
 	String nota4 = JOptionPane.showInputDialog("Qual foi sua nota da quarta prova?");
 		
 	Aluno aluno1 = new Aluno();/*Aqui será o João*/
-	
+	/**/
 	
 	aluno1.setNome (nome);
 	aluno1.setIdade (Integer.valueOf(idade));
