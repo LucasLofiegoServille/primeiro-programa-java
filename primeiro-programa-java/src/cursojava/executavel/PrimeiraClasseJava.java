@@ -27,10 +27,7 @@ public class PrimeiraClasseJava {
 	aluno1.setIdade (Integer.valueOf(idade));
 	aluno1.setCpf (cpf);
 	aluno1.setDataNascimento(dataNascimento);
-	aluno1.setNota1 (Integer.valueOf(nota1));
-	aluno1.setNota2 (Integer.valueOf(nota2));
-	aluno1.setNota3 (Integer.valueOf(nota3));
-	aluno1.setNota4 (Integer.valueOf(nota4));
+	
 	
 	
 	/*System.out.println("Nome do aluno1 é = " + aluno1.getNome());
