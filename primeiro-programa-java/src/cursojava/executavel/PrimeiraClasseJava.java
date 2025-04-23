@@ -19,13 +19,14 @@ public class PrimeiraClasseJava {
 	String nota2 = JOptionPane.showInputDialog("Qual foi sua nota da segunda prova?");
 	String nota3 = JOptionPane.showInputDialog("Qual foi sua nota da terceira prova?");
 	String nota4 = JOptionPane.showInputDialog("Qual foi sua nota da quarta prova?");
-		
+	String dataNascimento = JOptionPane.showInputDialog("Qual sua data de nascimento?");	
 	Aluno aluno1 = new Aluno();/*Aqui será o João*/
-	/**/
+	
 	
 	aluno1.setNome (nome);
 	aluno1.setIdade (Integer.valueOf(idade));
 	aluno1.setCpf (cpf);
+	aluno1.setDataNascimento(dataNascimento);
 	aluno1.setNota1 (Integer.valueOf(nota1));
 	aluno1.setNota2 (Integer.valueOf(nota2));
 	aluno1.setNota3 (Integer.valueOf(nota3));
