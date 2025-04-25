@@ -18,10 +18,6 @@ public class PrimeiraClasseJava {
 	String nome = JOptionPane.showInputDialog("Qual o nome do aluno?");
 	String idade = JOptionPane.showInputDialog("Qual a sua idade");
 	String cpf = JOptionPane.showInputDialog("Qual seu cpf?");
-	String nota1 = JOptionPane.showInputDialog("Qual foi sua nota da primeira prova?");
-	String nota2 = JOptionPane.showInputDialog("Qual foi sua nota da segunda prova?");
-	String nota3 = JOptionPane.showInputDialog("Qual foi sua nota da terceira prova?");
-	String nota4 = JOptionPane.showInputDialog("Qual foi sua nota da quarta prova?");
 	String dataNascimento = JOptionPane.showInputDialog("Qual sua data de nascimento?");	
 	String dataMatricula = JOptionPane.showInputDialog("Qual sua data de Matrícula?");
 	String nomeEscola = JOptionPane.showInputDialog("Qual nome da sua escola?");
